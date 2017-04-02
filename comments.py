@@ -11,10 +11,10 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')  
 
-DEVELOPER_KEY = "AIzaSyB5RuzUktqyp9cSpj4Dk_XTzl9aO9-6ow0"
+DEVELOPER_KEY = "###"
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
-pafy.set_api_key("AIzaSyB5RuzUktqyp9cSpj4Dk_XTzl9aO9-6ow0")
+pafy.set_api_key("##")
 
 def add_data(conceptId,conceptName, vID, comments):
 	data = [conceptId,conceptName, vID, comments]
