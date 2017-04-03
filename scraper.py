@@ -66,7 +66,6 @@ for li in ws.rows:
               sleep(2)
               continue  
           if Try:
-            #print video.published
             add_data(conceptId,conceptName,vID,video.title,video.description,video.author,video.published,video.viewcount, video.duration, video.likes, video.dislikes,video.rating,video.category)
             count += 1
             print str(count) + ") Added new video " + vID
